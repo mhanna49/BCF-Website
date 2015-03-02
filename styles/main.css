@@ -1,9 +1,3 @@
-/* So the HTML5 structural tags work in older browsers */
-article, aside, figure, footer, header, nav, section {
-    display: block;
-}
-
-/* the styles for the elements */
 * {
 	margin: 0;
 	padding: 0;
@@ -18,30 +12,16 @@ body {
     font-size: 87.5%;
     width: 800px;
     margin: 0 auto;
-    border: 3px solid #800000;
+    border: 3px solid black;
     background-color: #F5F5F5;
 }
 
-/* the styles for the header */
+/* header */
 header {
 	padding: 1.5em 0;
 }
 
-header h1 {
-	color: #800000;
-}
-
-header h2 {
-	font-style: italic;
-}
-
-header img {
-	float: left;
-	padding: 0 30px;
-}
-
-
-/* the styles for the navigation bar */
+/* nav bar */
 nav {
 	clear: left;
 	margin: 0;
@@ -64,5 +44,3 @@ nav a {
 	font-weight: bold;
 	border-right: 2px solid #fffded;
 }
-
-nav a.current { color: yellow; }
