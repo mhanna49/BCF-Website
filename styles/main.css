@@ -2,45 +2,58 @@
 	margin: 0;
 	padding: 0;
 }
-
 html {
 	background-color: white;
 }
-
 body {
 	font-family: Arial, Helvetica, sans-serif;
     font-size: 87.5%;
-    width: 800px;
+    width: 870px;
     margin: 0 auto;
     border: 3px solid black;
     background-color: #F5F5F5;
 }
-
 /* header */
 header {
 	padding: 1.5em 0;
 }
-
 /* nav bar */
 nav {
 	clear: left;
 	margin: 0;
 	padding: 0;
 }
-
 nav ul {
 	list-style: none;
 	padding: 1em 0;
 	background-color: #00BFFF;
 }
-
 nav li {
 	display: inline;
 }
-
 nav a {
 	padding: 1em 2em;
 	color: #fffded;
 	font-weight: bold;
 	border-right: 2px solid #fffded;
+}
+.current {
+	color: black;
+}
+#bwpro_background {
+	background-image: url("../images/bwpro.jpg");
+}
+.overlay_text {
+	color: white;
+}
+footer {
+	border-top: 3px solid black;
+	border-right: 3px solid black;
+	border-left: 3px solid black;
+	clear: both;
+	background-color: #00BFFF;
+}
+footer p {
+	padding: 1em 0;
+	text-align: center;
 }
